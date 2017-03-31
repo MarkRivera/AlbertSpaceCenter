@@ -1,0 +1,149 @@
+@media screen and (max-width: 600px){
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to { opacity: 1.0;}
+}
+
+#backgroundimg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+    background-image: url(Photos/italy%20night%20space%20compressed.jpg);
+    background-size: cover;
+    box-shadow: inset 0px 0px 90px 50px black;
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    }
+    
+    
+    form {
+     width: 50%;
+     border-radius: 4px;
+     position: relative;
+     top: 70px;
+     opacity: 0.3;
+     margin: 0 auto;
+    }
+
+    #email {
+        border-radius: inherit;
+        padding: 5px 0px;
+        width: 100%;
+    }
+    
+    
+    textarea {
+        margin: 5px auto 25px auto;
+        border-radius: inherit;
+        width: 100%;
+        height: 200px;
+    }
+
+    label {
+        display: inline-block;;
+        margin-top: 20px;
+    }
+    
+    #subBtn {
+        display: block;
+        margin: 0 auto;
+        padding: 15px 44px;
+    }
+    
+    #socialmediabar{
+        position: relative;
+        top: 100px;
+        text-align: center;
+        padding: 15px;
+        background-color: #151515;
+        margin-top: 5px;
+    }
+    
+    #socialmediabar a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    
+    
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to { opacity: 1.0;}
+}
+
+@media screen and (min-width: 601px){
+    
+    body{
+
+        background-color: black;
+        color: white;
+        overflow: hidden;
+    }
+
+    #main{
+        width: 100%;
+    }
+
+    form{
+        width: 100%;
+        margin: 0 auto;
+        opacity: 0;
+        animation-name: fadeIn;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        position: relative;
+        z-index: 1;
+    }
+
+    input{
+        display: block;
+        border-radius: 4px;
+        margin: 15px 0px;
+        position: relative;
+        z-index: 1;
+    }
+
+    textarea{
+        display: block;
+        width: 99%;
+        height: 50vh;
+        border-radius: 5px;
+        margin-top: 15px;
+        font-size: 24px;
+    }
+
+    #email {
+        width: 50%;
+        height: 44px;
+        font-size: 36px;
+    }
+
+    #subBtn{
+        width: 99%;
+        height: 50px
+    }
+
+    /*Insert Background and animations*/
+
+    #backgroundimg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Photos/italy%20night%20space%20compressed.jpg);
+    background-size: cover;
+    box-shadow: inset 0px 0px 90px 50px black;
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    }
+}

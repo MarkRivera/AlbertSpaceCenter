@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name = "author" content="Mark Rivera">
+<title>Space and Time</title>
+<link rel="stylesheet" type="text/css" href="webAppNav.css">
+<link rel="stylesheet" type="text/css" href="contact.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/core.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js"></script>
+<script type="text/javascript" src="webAppNav.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="main">
+        
+        <div id="backgroundimg">
+        </div>
+        <form>
+        <label for="email"><strong>Email Address:</strong></label>
+        <input type="email" name="email" id="email" required>
+        <label for="msg" id="msg"><strong>Send me a message!</strong></label>
+        <textarea name="message" id="msg"></textarea>
+        <input type="submit" name="submit-Btn" id="subBtn" value="Message Me!">
+        </form>
+        
+        <div id="socialmediabar">
+            <a href="#"><img src="Photos/social-1_logo-github.svg" alt="github link"></a>
+            <a href="#"><img id="porticon" src="Photos/social-2_round-500px.svg"></a>
+            <a href="#">
+            <img src="Photos/social-1_logo-codepen.svg" alt="codepen link"></a>
+        </div>
+        
+    </div>
+    
+    <!--Navigation Code (currently opens on side)-->
+    
+    <nav class="sideNav" id="sideNavigation">
+        <ul>
+            <li><a href="javascript:void(0)" class="closebtn">&times;</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Albert.html">Albert and His Theories</a></li>
+            <li><a href="observatiories.html">Find an Observatory</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <div id="openBtn"><div class="hamBar"></div><div class="hamBar"></div><div class="hamBar"></div></div>
+
+</body>

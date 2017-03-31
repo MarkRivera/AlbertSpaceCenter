@@ -1,0 +1,154 @@
+@media screen and (max-width: 600px){
+
+    body {
+     background: black;
+     color: white;
+     margin: 0;
+     overflow-x: hidden;
+    }
+
+    #entryImg{
+     width: 100%;
+     margin: 0 auto;
+    }
+
+    img {
+     width: inherit;
+    }
+    
+    #titleContainer{
+     text-align: center;
+    }
+    
+    p {
+     margin: 0 auto;
+    }
+    
+    ul {
+     list-style: none;
+    }
+    
+    /* Start of Nav CSS*/
+    
+    .sideNav {
+    height: 100%; /* 100% Full-height */
+    width: 0%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    .sideNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+    }
+    .sideNav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+    }
+    .sideNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+    
+    #main {
+    transition: margin-left .5s;
+    padding: 0px;
+    }
+    #openBtn {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 20px;  
+    }
+    
+    .hamBar {
+        background-color: white;
+        width: 40px;
+        height: 6px;
+        margin: 7px auto;
+    }
+
+    .navOn {
+        width: 250px !important;
+    }
+    
+    /* End of Nav CSS*/
+    
+    /*Footer CSS*/
+    
+    footer {
+        text-align: center;
+        padding: 0px 15px 15px 15px;
+        margin-top: 15px;
+        background-color: #151515;  
+    }
+
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 601px){
+    /*Navigation CSS starts here*/
+    .closebtn{
+        display: none;
+    }
+
+    #main {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        position: relative;
+        top: 80px;
+    }
+
+    #entryImg img {
+        width:100%;
+    }
+
+    .sideNav {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 80px;
+        text-align: center;
+    }
+
+    .sideNav ul{
+        list-style: none;
+        width: 100%;
+        height: 80px;
+        display: block;
+        margin: 0;
+        padding: 40px 0;
+    }
+
+    .sideNav ul li {
+        display: inline;
+        padding: 0 15px;
+    }
+
+    .sideNav ul a {
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:visited{
+        color: white;
+    }
+
+    /*Navigation CSS ends here*/
+}
+

@@ -1,0 +1,35 @@
+
+    #einsteinPiece {
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    #einsteinPiece figure img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    #einsteinPiece figcaption {
+        text-align: center;
+    }
+
+    @media screen and (min-width:601px){
+    body {
+        background-color: #000000;
+        color: white;
+    }
+    
+    #entryImg{
+        width: inherit;
+        margin: 0 auto;
+    }
+
+    #titleContainer{
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
